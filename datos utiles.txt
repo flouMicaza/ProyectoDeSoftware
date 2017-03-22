@@ -1,0 +1,18 @@
+git clone 
+git status
+git commit -m "mensaje pal commit"
+git push 
+git pull
+git add archivo (hace la copia para cambiarlo)
+git branch dev (pa crear una branch nueva que se llama dev, la crea sobre la branch en q estoy parada)
+git branch (muestra las bramch)
+git checkout dev (pa ir a dev)
+git branch -d nombreDeLArama (borra una branch)
+git push origin nombreDeLaRama
+git merge nombreDeLARAMA (parado en la rama que quiero que lleguen todos los archivos, lo q hace es que copia todo desde nombreDeLARAMA a la rama que yo quiero)
+git log (muestra el historial de commits)
+git reset HEAD^ (deshacer un commit)
+git checkout . (no entendi que era)
+git stash (agarra codigo que afecta el codigo versionado y lo mete a una pila como escondido y desaparecen los commit)
+git stash pop (saca el primer archivo de la pila)
+
